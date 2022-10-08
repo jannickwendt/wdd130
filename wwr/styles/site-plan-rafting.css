@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #BFD7EA   ;
-  --secondary-color: #409ACE ;
-  --accent1-color: #619137;
-  --accent2-color: #602E31;
+  --primary-color: #49A078   ;
+  --secondary-color: #262C28 ;
+  --accent1-color: #9CC5A1;
+  --accent2-color: #216869;
 
   /* change the values below to your chosen font(s) */
   --heading-font: @Import url("https://fonts.google.com/specimen/Bebas+Neue?subset=latin");
