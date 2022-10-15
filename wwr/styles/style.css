@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 content { 
         max-width: 1600px;
         margin: 0 auto;
@@ -7,7 +10,7 @@ nav a {
     text-align: center;
     color:#262C28;
     text-decoration: none;
-    
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-smg h4 {
@@ -28,10 +31,12 @@ main section {
     
 }
 
-
-/* Background color */
 body {
     background-color: #9CC5A1;
+    font-family: "Bebas Neue", "Bradley Hand", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -47,6 +52,10 @@ nav a:hover{
     background-color: #9CC5A1;
     color:#262C28;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -56,19 +65,26 @@ nav a:hover{
 
 .msg{
     background-color: #9CC5A1;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #9CC5A1;
     color: #262C28;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
-    color:#262C28
+    color:#262C28;
+    font-family: "Bebas Neue", "Bradley Hand", "sans-serif";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
-    color:#262C28
+    color:#262C28;
 }
 
 .msg h2{
@@ -77,6 +93,8 @@ h4{
 
 .msg p{
     color: #262C28;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer a{
@@ -89,11 +107,12 @@ footer a:hover{
 }
 
 .logo{
-    width:80px
+    width:80px;
 }
 
 .icon{
-    width:80px
+    width:80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -102,4 +121,28 @@ footer a:hover{
 
 footer p a:hover{
     text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border:10px solid #262C28
+}
+
+main section img {
+    box-sizing: border-box;
 }
